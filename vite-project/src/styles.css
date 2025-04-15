@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #333;
+    color: hsl(200, 100%, 90%);
+    max-width: 400px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.new-Item-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.btn {
+    background: hsl(200, 100%, 50, 0.1);
+    border: 1px solid hsl(200, 100%, 50);
+    color: hsl(200, 100%, 50%);
+    padding: 0.25em o.5em;;
+}
